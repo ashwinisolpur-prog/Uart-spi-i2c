@@ -50,7 +50,7 @@ A hands-on embedded systems project demonstrating configuration and usage of thr
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ashwini-solpure/uart-spi-i2c-protocols.git
+   git clone https://github.com/ashwini-solpur.prog/uart-spi-i2c-protocols.git
    ```
 
 2. Open in Arduino IDE or your preferred embedded IDE
