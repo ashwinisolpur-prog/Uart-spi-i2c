@@ -1,15 +1,15 @@
-# ðŸ”Œ Multi-Protocol Communication â€” UART, SPI & I2C on Microcontroller
+#  Multi-Protocol Communication- UART, SPI & I2C on Microcontroller
 
 ![Embedded Systems](https://img.shields.io/badge/Domain-Embedded%20Systems-blue)
 ![Language](https://img.shields.io/badge/Language-C-green)
 ![Platform](https://img.shields.io/badge/Platform-Arduino%20%2F%20ESP32-orange)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-A hands-on embedded systems project demonstrating configuration and usage of three major serial communication protocols â€” **UART**, **SPI**, and **I2C** â€” on a microcontroller. Each protocol is implemented from scratch using register-level C programming.
+A hands-on embedded systems project demonstrating configuration and usage of three major serial communication protocols **UART**, **SPI**, and **I2C** on a microcontroller. Each protocol is implemented from scratch using register-level C programming.
 
 ---
 
-## ðŸ“Œ What This Project Does
+## What This Project Does
 
 - Configures **UART** for serial communication between microcontroller and PC terminal
 - Sets up **SPI** for high-speed data transfer with a peripheral device
@@ -18,7 +18,7 @@ A hands-on embedded systems project demonstrating configuration and usage of thr
 
 ---
 
-## ðŸ› ï¸ Hardware Used
+## Hardware Used
 
 | Component | Purpose |
 |---|---|
@@ -29,28 +29,26 @@ A hands-on embedded systems project demonstrating configuration and usage of thr
 
 ---
 
-## ðŸ“ Project Structure
+## Project Structure
 
 ```
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ uart_config.c       # UART initialization and transmit/receive
-â”‚   â”œâ”€â”€ spi_config.c        # SPI master configuration
-â”‚   â”œâ”€â”€ i2c_sensor.c        # I2C sensor read functions
-â”‚   â”œâ”€â”€ timer_interrupt.c   # Timer setup and ISR handlers
-â”‚   â””â”€â”€ main.c              # Main application logic
-â”œâ”€â”€ include/
-â”‚   â””â”€â”€ config.h            # Pin definitions and constants
-â”œâ”€â”€ circuit_diagram.png     # Hardware connection diagram
-â””â”€â”€ README.md
+-src/uart_config.c       - UART initialization and transmit/receive
+-src/spi_config.c        - SPI master configuration
+-src/i2c_sensor.c        - I2C sensor read functions
+-src/timer_interrupt.c   - Timer setup and ISR handlers
+-src/main.c              - Main application logic
+-include/config.h            - Pin definitions and constants
+-circuit-diagram.jpg     - Hardware connection diagram
+-README.md               -Project documentation
 ```
 
 ---
 
-## âš™ï¸ How to Run
+## How to Run
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ashwini-solpur.prog/uart-spi-i2c-protocols.git
+   git clone https://github.com/ashwinisolpur-prog/Uart-spi-i2c.git
    ```
 
 2. Open in Arduino IDE or your preferred embedded IDE
@@ -61,7 +59,7 @@ A hands-on embedded systems project demonstrating configuration and usage of thr
 
 ---
 
-## ðŸ” Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 - **Register-level peripheral configuration** (no high-level library wrappers)
 - **Interrupt Service Routines (ISR)** for non-blocking timer events
@@ -71,26 +69,22 @@ A hands-on embedded systems project demonstrating configuration and usage of thr
 
 ---
 
-## ðŸ“¸ Demo
+## Demo
 
->
-
-<p align="center">
-  <img src="project_demo.png" alt="Multi-Protocol Embedded System Setup" width="800">
-
+![Circuit Setup](circuit-diagram.jpg)
 
 ---
 
-## ðŸ‘©â€ðŸ’» About Me
+## About Me
 
-**Ashwini Solpure** â€” Embedded Systems Engineer (Entry Level)
-- ðŸ“§ solpurashu@gmail.com
-- ðŸ“ Bengaluru, India
-- ðŸŽ“ B.E. Electrical & Electronics Engineering â€” CGPA 8.06
-- ðŸ… Govt. of India Certified â€” Advanced Embedded Systems (Skill India / NSDC)
+**Ashwini Solpure**  Embedded Systems Engineer (Entry Level)
+- Email: solpurashu@gmail.com
+- Location: Bengaluru, India
+- Education: B.E. Electrical & Electronics Engineering - CGPA 8.06
+- Certified: Govt. of India Certified - Advanced Embedded Systems (Skill India / NSDC)
 
 ---
 
-## ðŸ“„ License
+##  License
 
 This project is open source under the [MIT License](LICENSE).
