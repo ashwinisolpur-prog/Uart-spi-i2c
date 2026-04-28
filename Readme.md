@@ -72,7 +72,6 @@ A hands-on embedded systems project demonstrating configuration and usage of thr
 ## Demo
 
 ![Circuit Setup](circuit-diagram.jpg)
-
 ---
 
 ## About Me
