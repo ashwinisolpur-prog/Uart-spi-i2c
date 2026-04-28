@@ -53,7 +53,7 @@ A hands-on embedded systems project demonstrating configuration and usage of thr
 
 2. Open in Arduino IDE or your preferred embedded IDE
 
-3. Connect hardware as per `circuit_diagram.png`
+3. Connect hardware as per `circuit-diagram.jpg`
 
 4. Flash to your board and open Serial Monitor at **9600 baud**
 
