@@ -73,7 +73,11 @@ A hands-on embedded systems project demonstrating configuration and usage of thr
 
 ## ðŸ“¸ Demo
 
-> *(Add a photo or short GIF of the working circuit here)*
+>
+
+<p align="center">
+  <img src="project_demo.png" alt="Multi-Protocol Embedded System Setup" width="800">
+
 
 ---
 
